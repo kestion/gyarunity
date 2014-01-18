@@ -1,0 +1,187 @@
+/*//////////////////////// RESET //////////////////////////*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*//////////////////////// GLOBALS //////////////////////////*/
+
+/*MAIN COLOR : #5b2877 */
+
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+a:hover{
+	color:inherit;
+}
+
+.clear{clear:both;}
+.right{float:right;}
+.left{float:left;}
+
+/*body{
+	/font-family: Berlin sans FB;
+}*/
+
+/*//////////////////////// HEADER //////////////////////////*/
+
+header{
+	margin:1% 0;
+}
+
+#logo{
+	text-align: center;
+	width:18%;
+}
+#logo img{height:150px;}
+.header_left, .header_right{
+	background : url('../assets/images/bg.png');
+	height:130px;
+	width:41%;
+	padding-top:20px;
+}
+.header_right{
+	height:150px;
+	padding-top:0;
+}
+
+.flags{
+	margin-top:1%;
+	margin-left:2.5%;
+}
+
+.flags img{
+	height:40px;
+}
+
+.social{
+	margin-right:2.5%;
+}
+
+.social img{
+	height:48px;
+}
+
+/*//////////////////////// BODY //////////////////////////*/
+
+#content{
+	padding:0 20%;
+	padding-bottom: 150px;
+}
+
+/*//////////////////////// HOMEPAGE //////////////////////////*/
+#welcome{
+	background:#eabedf;
+	border:1px solid #e9e9eb;
+	border-radius: 15px;
+	color:#fff;
+	font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 1.5%;
+}
+
+#welcome h1{
+	font-weight: bold;
+	margin-bottom: 1%;
+	font-size:30px;
+}
+
+.categories{
+	background: none repeat scroll 0 0 #eabedf;
+    border: 1px solid #eabedf;
+    border-radius: 150px;
+    height: 230px;
+    margin: 2% 5%;
+    padding: 1%;
+    width: 21%;
+    overflow: hidden;
+    background-position: center;
+    opacity: 0.5;
+}
+.categories:hover{
+	opacity: 1;
+}
+.categories:hover h2{
+	color:#eabedf;
+}
+
+.categories h2{
+	color:#d4d0d1;
+	font-size:24px;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-weight: bold;
+	margin-top: 81%;
+	text-align: center;
+}
+
+/*//////////////////////// FOOTER //////////////////////////*/
+
+footer{
+	background: #fff;
+	border-top:5px solid #5b2877;
+	padding:1% 0.5%;
+	font-size:15px;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	color:#a9a9a9;
+	line-height:45px;
+	letter-spacing: 4px;
+	width: 100%;
+	position:fixed;
+	bottom:0;
+	padding-bottom: 0;	
+}
+footer a{
+	width:6%;
+}
+footer p{
+	width:88%;
+	text-align: center;
+}
+footer img{
+	width:100px;
+}
