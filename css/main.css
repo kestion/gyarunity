@@ -111,6 +111,20 @@ header{
 	padding-bottom: 150px;
 }
 
+.breadcrumb{
+	color:#eabedf;
+	font-size:21px;
+	font-weight: bold;
+}
+
+.breadcrumb a:hover{
+	text-decoration: underline;
+}
+
+.breadcrumb .active{
+	color:#5b2877;
+}
+
 /*//////////////////////// HOMEPAGE //////////////////////////*/
 #welcome{
 	background:#eabedf;
@@ -128,8 +142,15 @@ header{
 	margin-bottom: 1%;
 	font-size:30px;
 }
-
-.categories{
+.member{
+	width: 21%; 
+	text-align: center; 
+	padding:1%;
+	color:#eabedf;
+	font-weight: bold;
+	font-size:23px;
+}
+.categories, .members{
 	background: none repeat scroll 0 0 #eabedf;
     border: 1px solid #eabedf;
     border-radius: 150px;
@@ -141,13 +162,19 @@ header{
     background-position: center;
     opacity: 0.5;
 }
-.categories:hover{
+.members{
+	padding: 0;
+    width: 92%;
+}
+.categories:hover, .members:hover{
 	opacity: 1;
 }
 .categories:hover h2{
 	color:#eabedf;
 }
-
+.member:hover h2, .member:hover h3{
+	color:#5b2877;
+}
 .categories h2{
 	color:#d4d0d1;
 	font-size:24px;
@@ -157,6 +184,8 @@ header{
 	margin-top: 81%;
 	text-align: center;
 }
+
+.member h2, .member h3{float:none;}
 
 /*//////////////////////// FOOTER //////////////////////////*/
 

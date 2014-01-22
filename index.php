@@ -10,8 +10,6 @@
 	if (!$db_selected) {
 	   die ('Impossible de sélectionner la base de données : ' . mysql_error());
 	}
-
-
 	
 	function get_table($arg1, $arg2){	
 		$menu = array();
@@ -38,6 +36,9 @@
 
 	$description = get_table('description', '*');
 	$menu = get_table('menu', '*');
+	$members = get_table('members', '*');
+	$articles = get_table('articles', '*');
+	$tags = get_table('tags', '*');
 
 	include 'templates/homepage.php';
 
