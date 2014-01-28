@@ -8,7 +8,7 @@
 </div> 
 
 <?php foreach($members as $k) { 
-	if($k['type'] == 3){?>
+	if($k['type'] == "N"){?>
 <a class="member left" href="index.php?&p=member&id=<?php echo $k['id']; ?>" title="<?php echo $k['pseudo']; ?>">
 	<div class="members" style="background-image:url('assets/images/members/<?php echo $k['img']; ?>');">	</div>
 	<h2><?php echo $k['pseudo']; ?></h2>

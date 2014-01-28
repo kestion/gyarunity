@@ -39,6 +39,9 @@
 	$members = get_table('members', '*');
 	$articles = get_table('articles', '*');
 	$tags = get_table('tags', '*');
+	$gallery_link = get_table('gallery_link', '*');
+	$images = get_table('images', '*');
+	$makeovers = get_table('makeovers', '*');
 
 	include 'templates/homepage.php';
 
